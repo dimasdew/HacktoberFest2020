@@ -32,7 +32,7 @@ while(1):
         
    
         
-    #extrapolate the hand to fill dark spots within
+    #extrapolate the hand to fill dark spots with
         mask = cv2.dilate(mask,kernel,iterations = 4)
         
     #blur the image
